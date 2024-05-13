@@ -1,0 +1,18 @@
+.photoLink {
+    margin-bottom: 30px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.wholeGallery {
+    display: inline-flex;
+    align-items: center;
+}
+
+.videoModal {
+    margin-left: 30px;
+    display: grid;
+}
+
+#title {
+    margin-bottom: 40px;
+}
