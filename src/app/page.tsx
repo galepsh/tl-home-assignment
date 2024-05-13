@@ -4,7 +4,8 @@ import Gallery from "@/app/components/images-gallery/gallery";
 
 export default async function Home() {
   const mediaFetcher = new MediaFetcher();
-  const fetchedDataRes = await mediaFetcher.getDataById('1');
+  const id = String(Math.floor(Math.random() * 3 + 1)); // selecting a random id from the options [1,2,3]
+  const fetchedDataRes = await mediaFetcher.getDataById(id);
   return (
     <main className={styles.main}>
         <div>
